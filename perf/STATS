@@ -1,0 +1,119 @@
+=== data_out/encap ===
+Min: 973.969000
+Max: 1138.490000
+Mean: 1017.841810
+Median: 1006.100000
+Stddev: 38.092048
+
+=== data_out/encap-64 ===
+Min: 978.020000
+Max: 1006.785000
+Mean: 1001.442320
+Median: 1005.676000
+Stddev: 7.807163
+
+=== data_out/encap-hmac-generic-64 ===
+Min: 239.557000
+Max: 241.657000
+Mean: 240.497110
+Median: 240.474000
+Stddev: 0.512419
+
+=== data_out/encap-hmac-ssse3 ===
+Min: 275.793000
+Max: 278.003000
+Mean: 276.661930
+Median: 276.253000
+Stddev: 0.719702
+
+=== data_out/encap-hmac-ssse3-64 ===
+Min: 288.864000
+Max: 291.543000
+Mean: 290.286260
+Median: 290.527500
+Stddev: 0.917437
+
+=== data_out/inline ===
+Min: 984.315000
+Max: 1161.050000
+Mean: 1031.402940
+Median: 1025.601500
+Stddev: 33.422151
+
+=== data_out/inline-64 ===
+Min: 984.974000
+Max: 1025.584000
+Mean: 1019.391650
+Median: 1024.792500
+Stddev: 11.093672
+
+=== data_out/mflows-encap-64 ===
+Min: 3731.864000
+Max: 4329.391000
+Mean: 4289.581040
+Median: 4295.670000
+Stddev: 56.639181
+
+=== data_out/mflows-encap-hmac-ssse3-64 ===
+Min: 1207.135000
+Max: 1215.387000
+Mean: 1211.438740
+Median: 1211.453000
+Stddev: 1.816645
+
+=== data_out/mflows-inline-64 ===
+Min: 4028.267000
+Max: 4320.840000
+Mean: 4300.920370
+Median: 4305.048000
+Stddev: 28.667895
+
+=== data_out/mflows-maxout-64 ===
+Min: 7249.727000
+Max: 7413.319000
+Mean: 7355.122450
+Median: 7366.505500
+Stddev: 50.068057
+
+=== data_out/mflows-plain-64 ===
+Min: 4883.166000
+Max: 4971.043000
+Mean: 4917.450230
+Median: 4915.135000
+Stddev: 15.297340
+
+=== data_out/nopatch-encap-64 ===
+Min: 763.561000
+Max: 790.554000
+Mean: 784.804450
+Median: 788.819000
+Stddev: 7.966209
+
+=== data_out/nopatch-inline-64 ===
+Min: 757.868000
+Max: 782.473000
+Mean: 776.198610
+Median: 778.174000
+Stddev: 6.670768
+
+=== data_out/nopatch-plain-64 ===
+Min: 1138.634000
+Max: 1170.656000
+Mean: 1165.055130
+Median: 1166.392500
+Stddev: 6.922316
+
+=== data_out/plain ===
+Min: 1147.429000
+Max: 1219.501000
+Mean: 1169.196230
+Median: 1162.986000
+Stddev: 15.989253
+
+=== data_out/plain-64 ===
+Min: 1135.547000
+Max: 1164.134000
+Mean: 1156.462800
+Median: 1156.390000
+Stddev: 6.465104
+

@@ -1,0 +1,35 @@
+=== ../kvm-data/td-res/dup-clean ===
+Min: 55.638000
+Max: 87.023000
+Mean: 58.239640
+Median: 56.867000
+Stddev: 3.240691
+
+=== ../kvm-data/td-res/dup-loss10-delay5 ===
+Min: 55.531000
+Max: 133.357000
+Mean: 77.449412
+Median: 77.651000
+Stddev: 11.458976
+
+=== ../kvm-data/td-res/nodup-clean ===
+Min: 54.998000
+Max: 119.327000
+Mean: 57.103106
+Median: 56.009000
+Stddev: 3.414684
+
+=== ../kvm-data/td-res/nodup-delay5 ===
+Min: 147.522000
+Max: 180.340000
+Mean: 149.900089
+Median: 148.787500
+Stddev: 2.628781
+
+=== ../kvm-data/td-res/nodup-loss10 ===
+Min: 77.004000
+Max: 100344.465000
+Mean: 665.269214
+Median: 207.210500
+Stddev: 2284.182264
+

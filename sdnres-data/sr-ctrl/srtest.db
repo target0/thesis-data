@@ -1,0 +1,64 @@
+OVSDB JSON 1061 99c0d838b44d895877a07dabeee4068ae029a1c3
+{"name":"SR_test","version":"0.0.1","tables":{"NodeState":{"columns":{"pbsid":{"type":"string"},"prefix":{"type":"string"},"addr":{"type":"string"},"name":{"type":"string"}}},"LinkState":{"columns":{"name1":{"type":"string"},"bw":{"type":"integer"},"delay":{"type":"integer"},"name2":{"type":"string"},"addr2":{"type":"string"},"ava_bw":{"type":"integer"},"addr1":{"type":"string"},"metric":{"type":"integer"}}},"FlowState":{"columns":{"router":{"type":"string"},"bandwidth":{"type":"integer"},"delay":{"type":"integer"},"source":{"type":"string"},"request":{"type":"string"},"ttl":{"type":"integer"},"policing":{"type":"integer"},"destination":{"type":"string"},"segments":{"type":"string"},"dstaddr":{"type":"string"},"reverseFlow":{"type":"string"},"interface":{"type":"string"},"idle":{"type":"integer"},"bsid":{"type":"string"}}},"FlowReq":{"columns":{"destination":{"type":"string"},"router":{"type":"string"},"bandwidth":{"type":"integer"},"dstaddr":{"type":"string"},"source":{"type":"string"},"delay":{"type":"integer"},"status":{"type":"integer"}}}}}
+OVSDB JSON 150 b8c7ed213ea4fa56f271adbe0bb93acbd2afc244
+{"NodeState":{"375bd46a-7585-451b-9643-81832485e3f1":{"name":"A","addr":"fc00::1","prefix":"fc10::/48","pbsid":"fc00:1::/64"}},"_date":1482422136215}
+OVSDB JSON 150 7997c81722f9a6e7fb71ca89cb87244f460d7278
+{"NodeState":{"d53a96ac-1f03-49f2-b25d-b444338afeb7":{"name":"B","addr":"fc01::1","prefix":"fc11::/48","pbsid":"fc01:1::/64"}},"_date":1482422136216}
+OVSDB JSON 150 d8bfbe389dd2ddec1b160f5f3f59ad6017666d99
+{"NodeState":{"be2a27aa-1600-4d91-827e-ca761cd50394":{"name":"C","addr":"fc02::1","prefix":"fc12::/48","pbsid":"fc02:1::/64"}},"_date":1482422136217}
+OVSDB JSON 150 568a5f4f47fc241d975e735112ef2ee9a0131dfc
+{"NodeState":{"41b35e23-5bdb-48c8-829d-6f43865f0567":{"name":"D","addr":"fc03::1","prefix":"fc13::/48","pbsid":"fc03:1::/64"}},"_date":1482422136219}
+OVSDB JSON 129 3ef783d18e234644352b98c56f8db3e1dfecff3c
+{"NodeState":{"601716c7-a3b7-479d-bc01-48d6b39f0a2c":{"name":"E","pbsid":"fc04:1::/64","addr":"fc04::1"}},"_date":1482422136220}
+OVSDB JSON 150 5dc3de9618924fda451467b495a7447febff1fed
+{"NodeState":{"33b9c5b7-83d7-42bc-b8b9-a56143607d50":{"name":"F","addr":"fc05::1","prefix":"fc15::/48","pbsid":"fc05:1::/64"}},"_date":1482422136221}
+OVSDB JSON 150 2d8bf0988dc8c4a56779596e222305cf1706c22f
+{"NodeState":{"7dcf6712-f19f-4242-8dce-cbd8d995e01c":{"name":"G","addr":"fc06::1","prefix":"fc16::/48","pbsid":"fc06:1::/64"}},"_date":1482422136223}
+OVSDB JSON 150 8cb122c96e669836d981e9a2db85d1f239ab6ecb
+{"NodeState":{"b5839a43-bad1-4286-ac69-1a7649708869":{"name":"H","addr":"fc07::1","prefix":"fc17::/48","pbsid":"fc07:1::/64"}},"_date":1482422136224}
+OVSDB JSON 150 b92af9e40e4505b2535b5ddc6339e314d59f7179
+{"NodeState":{"ea3bec7a-d34e-4d59-9e6c-aa10de8951a8":{"name":"I","addr":"fc08::1","prefix":"fc18::/48","pbsid":"fc08:1::/64"}},"_date":1482422136225}
+OVSDB JSON 182 a19d5ea7d247f9e81f1561b54ca657bd8cf02777
+{"LinkState":{"12994627-fcf1-4d65-9342-4407fece65f7":{"name1":"A","bw":100,"delay":1,"name2":"B","addr2":"fd00::2","ava_bw":100,"addr1":"fd00::1","metric":1}},"_date":1482422136226}
+OVSDB JSON 182 539abe4106ad6cf5d1d84625630a537b6544dce0
+{"LinkState":{"d965e268-33b5-401c-86b9-f88986a200e5":{"name1":"B","bw":100,"delay":1,"name2":"C","addr2":"fd01::2","ava_bw":100,"addr1":"fd01::1","metric":1}},"_date":1482422136227}
+OVSDB JSON 182 45a3df4c3b3f9e7c79723585db1e68163a82a0c7
+{"LinkState":{"45cb0cba-66d4-40ad-88a3-3613153655cd":{"name1":"A","bw":100,"delay":1,"name2":"D","addr2":"fd02::2","ava_bw":100,"addr1":"fd02::1","metric":1}},"_date":1482422136228}
+OVSDB JSON 182 34baa094825321eae4bd3d3c1ccfd4c56533c8f1
+{"LinkState":{"2e5e0952-fc4d-454f-87e6-9d3eca7a6c91":{"name1":"B","bw":100,"delay":1,"name2":"E","addr2":"fd03::2","ava_bw":100,"addr1":"fd03::1","metric":1}},"_date":1482422136230}
+OVSDB JSON 182 84020c40be116fde58fc6d2d7b131916e13ff54b
+{"LinkState":{"987eef66-c2b9-4cc9-9264-d627d3bac1e4":{"name1":"C","bw":100,"delay":1,"name2":"F","addr2":"fd04::2","ava_bw":100,"addr1":"fd04::1","metric":1}},"_date":1482422136231}
+OVSDB JSON 182 722ffb81976078db1b3e7f64710fc2236f230645
+{"LinkState":{"29e6e02f-e022-4181-b5f4-c16f8d32c73f":{"name1":"D","bw":100,"delay":1,"name2":"E","addr2":"fd05::2","ava_bw":100,"addr1":"fd05::1","metric":1}},"_date":1482422136232}
+OVSDB JSON 182 9bd56e2f1c9de0f2d0a2e1d7bb26bc2392c2cb18
+{"LinkState":{"9b38c4a0-9dce-4618-b27c-78e04c4c9c17":{"name1":"E","bw":100,"delay":1,"name2":"F","addr2":"fd06::2","ava_bw":100,"addr1":"fd06::1","metric":1}},"_date":1482422136233}
+OVSDB JSON 182 78fcda4487e39fef4fc9fd4f13861be161eaf41c
+{"LinkState":{"39312b2e-93c0-4c67-b217-faf390599206":{"name1":"D","bw":100,"delay":1,"name2":"G","addr2":"fd07::2","ava_bw":100,"addr1":"fd07::1","metric":1}},"_date":1482422136234}
+OVSDB JSON 182 1acb7937b5abbf3ad2af425b163e20f677687a94
+{"LinkState":{"50878b04-713b-41dc-994e-e3589d24c5c5":{"name1":"E","bw":100,"delay":1,"name2":"H","addr2":"fd08::2","ava_bw":100,"addr1":"fd08::1","metric":1}},"_date":1482422136235}
+OVSDB JSON 182 ab6ae8712c473dce0fa25100454211d37e476e86
+{"LinkState":{"4bcbc199-7b43-4040-bf61-74551af977a9":{"name1":"F","bw":100,"delay":1,"name2":"I","addr2":"fd09::2","ava_bw":100,"addr1":"fd09::1","metric":1}},"_date":1482422136236}
+OVSDB JSON 182 fd96cea7fe1a0a15f0feddf825174bbfd5b2dd1e
+{"LinkState":{"258f1873-6944-487c-93eb-989e7e08eaf4":{"name1":"G","bw":100,"delay":1,"name2":"H","addr2":"fd0a::2","ava_bw":100,"addr1":"fd0a::1","metric":1}},"_date":1482422136238}
+OVSDB JSON 182 e47c357c9c7415bb378c05d5c005285e951c23ee
+{"LinkState":{"84679ee6-379a-41b2-987d-99d6174cfef3":{"name1":"H","bw":100,"delay":1,"name2":"I","addr2":"fd0b::2","ava_bw":100,"addr1":"fd0b::1","metric":1}},"_date":1482422136239}
+OVSDB JSON 154 dbb151001fe5cb92e600178a9eeb99941392f347
+{"_date":1482422136240,"FlowReq":{"7007a951-49bd-4fd9-a38a-045448681568":{"destination":"accessI","router":"A","dstaddr":"fc18::42","source":"accessA"}}}
+OVSDB JSON 88 201d02434cc402025ae8fc13c1716627788d0309
+{"_date":1482422147276,"FlowReq":{"7007a951-49bd-4fd9-a38a-045448681568":{"status":1}}}
+OVSDB JSON 285 cc745ff6b35499a3ed316d832e11394939eea2a9
+{"FlowState":{"13e59bb4-1cae-402b-876b-adabbc6272af":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::7339:c496:88:722c","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482422147279}
+OVSDB JSON 287 7470146c50849d00d3fb20e0e65434a60e8ed905
+{"FlowState":{"919ee521-a516-4fbf-9393-247372e41331":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::b971:1633:6908:3234","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482422154557}
+OVSDB JSON 287 681be69e66110dec6f713281e2cf7b00d55fb546
+{"FlowState":{"b08c4008-d2fa-4ac2-8685-a86baec5a130":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::5ff1:7df4:83db:a7f1","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482426128408}
+OVSDB JSON 287 8e12d50e97fa265bc0217920724b250ae6cd6841
+{"FlowState":{"0d1731bc-9329-43db-84a9-c60c6a62f40a":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::7ee2:cbe3:5ebb:3a71","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482426149997}
+OVSDB JSON 287 4e93e7a3b1097e59ffded376f1c9d5e6f7816361
+{"FlowState":{"dfa3c83b-4806-4816-ba52-d8a96918ea19":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::1cec:dc9d:48dc:5dd9","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482426153234}
+OVSDB JSON 287 5c103b6efd85842bc6b2a2038c8346f1c5d59d8a
+{"FlowState":{"dd3e1a75-b6ff-4960-8a92-555f644d0f0d":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::307a:5ddc:6fef:8ee7","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482426183417}
+OVSDB JSON 287 1905d1be5a3193d2b494458975ac4d7e11ad9e68
+{"FlowState":{"5908bea6-2bf5-4d07-ab0a-60ae3d6ebba4":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::9d33:8889:2c01:2f11","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482426186303}
+OVSDB JSON 287 cb01e5df2d4a53d78f8afc930bf634e9a6472378
+{"FlowState":{"22b3ea48-fab6-4a9e-9816-9c12d477745c":{"router":"A","destination":"accessI","segments":"fc03::1;fc04::1;fc07::1;fc08::1","dstaddr":"fc18::42","source":"accessA","bsid":"fc00:1::9ff6:8b92:6020:1138","request":"7007a951-49bd-4fd9-a38a-045448681568"}},"_date":1482485894747}
