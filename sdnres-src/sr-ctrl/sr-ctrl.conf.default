@@ -1,0 +1,6 @@
+ovsdb_client "/home/target0/openvswitch-2.6.1/ovsdb/ovsdb-client"
+ovsdb_server "tcp:[::1]:6640"
+ovsdb_database "SR_test"
+rules_file "rules.conf"
+worker_threads 1
+req_buffer_size 16
